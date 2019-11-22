@@ -7,6 +7,7 @@
 // end of each string in the list before sending it back.
 void server_append(int sock) {
 	// TODO: Implement this.
+	// Remember: recv(socket_fd, var_receiving_into, sizeof_var, MSG_WAITALL)
 }
 
 #endif
