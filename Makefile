@@ -19,7 +19,7 @@ server: ${SERVER_OBJS}
 %.o: %.cpp
 	${CC} -c $<
 %.o: %.cc
-\t${CC} -c $<
+	${CC} -c $<
 
 clean:
 	rm -f ${CLIENT_OBJS} ${SERVER_OBJS} client server
