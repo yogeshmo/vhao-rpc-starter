@@ -52,6 +52,7 @@ std::list<std::string> recvList(int sock) {
     }
 
     // TODO: Receive strings of each node and recreate linked list.
+    // Do this one character at a time.
     return std::list<std::string>();
 }
 

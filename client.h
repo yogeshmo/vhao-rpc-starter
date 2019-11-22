@@ -30,6 +30,14 @@ std::list<std::string> client_append(int port, std::list<std::string> &l, char c
     // CONNECTED TO SERVER.
     // TODO: Finish client stub.
 
+    // (1) Send the char to append.
+
+    // (2) Send the list.
+
+    // (3) Receive the list back from the server.
+
+    // (4) Close the socket.
+
     return std::list<std::string>();
 }
 
