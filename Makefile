@@ -10,16 +10,16 @@ all: client server
 
 
 client: ${CLIENT_OBJS}
-	${CC} -o $@ $^ -ldl
+    ${CC} -o $@ $^ -ldl
 
 server: ${SERVER_OBJS}
-	${CC} -o $@ $^ -ldl -pthread
+    ${CC} -o $@ $^ -ldl -pthread
 
 # Generic rules for compiling a source file to an object file
 %.o: %.cpp
-	${CC} -c $<
+    ${CC} -c $<
 %.o: %.cc
-	${CC} -c $<
+    ${CC} -c $<
 
 clean:
-	rm -f ${CLIENT_OBJS} ${SERVER_OBJS} client server
+    rm -f ${CLIENT_OBJS} ${SERVER_OBJS} client server

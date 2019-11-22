@@ -14,12 +14,12 @@ int main(int argc, char *argv[]) {
     memes.push_back("meeshon failed");
     memes.push_back("haha jk... unLESS?");
 
-	// Before appending 'F'.
-	printList(memes);
-	memes = client_append(port, memes, 'F');
+    // Before appending 'F'.
+    printList(memes);
+    memes = client_append(port, memes, 'F');
 
-	// After appending 'F'.
-	printList(memes);
+    // After appending 'F'.
+    printList(memes);
 
-	return 0;
+    return 0;
 }
